@@ -1,15 +1,15 @@
-# Simple Moving Average (SMA) Trading Strategy
+# Stock Moving Average Trading Strategy
 
-## 1. Import Libraries
+A simple Python implementation of a 50/200-day moving average crossover strategy.
 
-import yfinance as yf
+## Code Overview
+- Downloads historical stock data from Yahoo Finance
+- Implements moving average crossover strategy
+- Compares strategy performance vs buy-and-hold
+- Generates interactive visualizations
 
-import pandas as pad
-
-import matplotlib.pyplot as plt
-
--[yfinance: Fetches historical market data from Yahoo Finance]
-
--[pandas: Handles data in DataFrame format (like Excel for Python)]
-
--[matplotlib: Creates charts and visualizations]
+## Requirements
+- Python 3.6+
+- yfinance
+- pandas
+- matplotlib
